@@ -1,0 +1,8 @@
+#Configure spring rest parameter deserializaiton to fail if there is an unknown property in the json input
+spring:
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+
+#set the maximum number of messages to MAX_INT 
+maxMessages: 2147483647
