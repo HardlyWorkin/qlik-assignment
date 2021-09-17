@@ -1,4 +1,4 @@
-package qlik.assignment.application.dal;
+package qlik.assignment.persistence;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
@@ -16,6 +16,7 @@ import org.junit.jupiter.api.Test;
 import qlik.assignment.domain.model.Message;
 import qlik.assignment.domain.model.Message.MandatoryFieldException;
 import qlik.assignment.domain.repository.OptimisticLockException;
+import qlik.assignment.persistence.InMemoryMessageRepository;
 import qlik.assignment.domain.repository.MessageNotFoundException;
 
 import static org.hamcrest.MatcherAssert.assertThat;

@@ -1,4 +1,4 @@
-package qlik.assignment.web.message;
+package qlik.assignment.application.web.message;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.hasItem;

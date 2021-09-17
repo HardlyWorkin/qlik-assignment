@@ -1,4 +1,4 @@
-package qlik.assignment.application.dal;
+package qlik.assignment.persistence;
 
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
